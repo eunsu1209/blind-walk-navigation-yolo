@@ -153,11 +153,8 @@ blind-walk-navigation-yolo/
 │   └── training code/           # YOLO 모델 학습 · 데이터 전처리 코드
 ├── docs/                        # 결과보고서(PDF), 데모 영상
 └── README.md
+
 ```
-
-> ⚠️ 데이터셋·모델 가중치(`.engine`·`.onnx`)·영상은 대용량이라 git에 포함하지 않습니다.
-
----
 
 ## Tech Stack
 
