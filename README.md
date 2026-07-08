@@ -142,14 +142,16 @@ flowchart LR
 
 📄 [결과보고서 (PDF)](https://github.com/eunsu1209/blind-walk-navigation-yolo/blob/main/docs/KCCI_%20OnDevice_1기_결과보고서%288팀%29.pdf)
 
+---
+
 ## Project Structure
 
 ```
 blind-walk-navigation-yolo/
-├── src/          # 전처리, 실시간 추론 파이프라인, Ollama·gTTS 연동
-├── preprocess/   # JSON→YOLO 변환, 클래스 균형화 스크립트
-├── docs/         # 결과보고서, 시스템 구성도
-├── .gitignore    # 데이터셋·모델(.engine/.onnx)·영상 제외
+├── code/
+│   ├── jetson detection code/   # Jetson 온디바이스 실시간 추론 (YOLO·Ollama·gTTS)
+│   └── training code/           # YOLO 모델 학습 · 데이터 전처리 코드
+├── docs/                        # 결과보고서(PDF), 데모 영상
 └── README.md
 ```
 
