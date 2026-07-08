@@ -136,11 +136,11 @@ flowchart LR
 
 ## Demo Video
 
-데모 영상: _(구글드라이브/유튜브 링크 삽입 예정)_
+[![데모 영상 보기](https://img.shields.io/badge/▶_데모_영상_보기-EA4335?style=for-the-badge&logo=youtube&logoColor=white)](https://github.com/eunsu1209/blind-walk-navigation-yolo/blob/main/docs/KCCI_OnDevice_1기_시연영상%288팀%29.mp4)
 
-> 대용량 영상은 저장소 대신 외부 링크로 제공합니다.
+시각장애인 도보 내비게이션 실시간 시연 영상 — 위 버튼을 클릭하면 재생 페이지로 이동합니다.
 
----
+📄 [결과보고서 (PDF)](https://github.com/eunsu1209/blind-walk-navigation-yolo/blob/main/docs/KCCI_%20OnDevice_1기_결과보고서%288팀%29.pdf)
 
 ## Project Structure
 
